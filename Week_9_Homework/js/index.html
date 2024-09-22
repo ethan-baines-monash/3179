@@ -6,5 +6,11 @@
   </head>
 
   <div id="dot-map"></div>
-  <script type="text/javascript"></script>
+  <script type="text/javascript">
+    var dotMap = "js/dot_map.vg.json";
+
+    vegaEmbed("#dot-map", dotMap)
+      .then(function (result) {})
+      .catch(console.error);
+  </script>
 </html>
