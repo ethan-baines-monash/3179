@@ -22,7 +22,12 @@
       },
       "encoding": {
         "longitude": { "field": "Longitude", "type": "quantitative" },
-        "latitude": { "field": "Latitude", "type": "quantitative" }
+        "latitude": { "field": "Latitude", "type": "quantitative" },
+        "tooltip": [
+          { "field": "Institution Name", "type": "nominal" },
+          { "field": "State", "type": "nominal" },
+          { "field": "Remoteness", "type": "nominal" }
+        ]
       },
       "layer": [
         {
