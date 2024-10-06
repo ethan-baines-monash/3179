@@ -17,18 +17,18 @@ Cheque,2013,0
 Cheque,2016,0
 Cheque,2019,0
 Cheque,2022,0
-Credit_Total,2007,11
-Credit_Total,2010,9
-Credit_Total,2013,19
-Credit_Total,2016,22
-Credit_Total,2019,19
-Credit_Total,2022,26
-Debit_Total,2007,15
-Debit_Total,2010,22
-Debit_Total,2013,24
-Debit_Total,2016,30
-Debit_Total,2019,44
-Debit_Total,2022,51
+Credit,2007,11
+Credit,2010,9
+Credit,2013,19
+Credit,2016,22
+Credit,2019,19
+Credit,2022,26
+Debit,2007,15
+Debit,2010,22
+Debit,2013,24
+Debit,2016,30
+Debit,2019,44
+Debit,2022,51
 Gift/prepaid card,2007,
 Gift/prepaid card,2010,
 Gift/prepaid card,2013,
