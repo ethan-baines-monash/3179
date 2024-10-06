@@ -30,6 +30,13 @@
 
       <div class="pure-g">
         <div class="pure-u-1-1">
+          <h2>Line Chart (Interactive Legend)</h2>
+          <div id="line-chart" class="vis-container"></div>
+        </div>
+      </div>
+
+      <div class="pure-g">
+        <div class="pure-u-1-1">
           <h2>Bar Chart</h2>
           <div id="bar-chart" class="vis-container"></div>
         </div>
@@ -39,8 +46,13 @@
 
   <script type="text/javascript">
     var barChart = "js/bar_chart.vg.json";
+    var lineChart = "js/line_chart.vg.json";
 
     vegaEmbed("#bar-chart", barChart)
+      .then(function (result) {})
+      .catch(console.error);
+
+    vegaEmbed("#line-chart", lineChart)
       .then(function (result) {})
       .catch(console.error);
   </script>

@@ -17,7 +17,7 @@
   "encoding": {
     "x": {
       "field": "Year",
-      "type": "temporal",
+      "type": "nominal",
       "axis": { "labelAngle": 0 }
     },
     "y": {
@@ -27,7 +27,12 @@
     },
     "tooltip": [
       { "field": "Year", "type": "nominal" },
-      { "field": "ATM_Count", "type": "quantitative", "title": "Count" }
+      {
+        "field": "ATM_Count",
+        "type": "quantitative",
+        "title": "Count",
+        "format": ","
+      }
     ]
   }
 }

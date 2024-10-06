@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 450,
+    "title": {
+      "text": "Payment Method Usage in Australia",
+      "subtitle": "2007 to 2022"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Week_10_Homework/data/Clean_Payment_Methods.csv"
+    },
+    "mark": "line",
+    "params": [
+      {
+        "name": "Payment_Method",
+        "select": {"type": "point", "fields": ["Payment_Method"]},
+        "bind": {"legend": "click"}
+      }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "axis": { "labelAngle": 0 }
+      },
+      "y": {
+        "field": "Usage",
+        "type": "quantitative",
+        "title": "Usage of Payment Method (%)"
+      },
+      "color": {
+        "field": "Payment_Method",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Cash",
+            "Credit",
+            "Debit",
+            "Cheque",
+            "Internet/phone banking",
+            "Other"
+          ]
+        }
+      },
+      "opacity": {
+        "condition": {
+          "param": "Payment_Method",
+          "value": 1
+        },
+        "value": 0.2
+      },
+      "tooltip": [
+        { "field": "Payment_Method", "type": "nominal", "title": "Payment Method" },
+        { "field": "Usage", "type": "quantitative", "title": "Usage (%)" },
+        { "field": "Year", "type": "temporal" }
+      ]
+    }
+  }
+  
