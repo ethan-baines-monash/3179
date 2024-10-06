@@ -24,6 +24,10 @@
       "field": "ATM_Count",
       "type": "quantitative",
       "title": "Count of ATMs"
-    }
+    },
+    "tooltip": [
+      { "field": "Year", "type": "nominal" },
+      { "field": "ATM_Count", "type": "quantitative", "title": "Count" }
+    ]
   }
 }

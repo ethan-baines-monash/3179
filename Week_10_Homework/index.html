@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title Week 10 Homework | Ethan Baines></title>
+
+    <!--Vega Lite Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+    <!--Pure CSS-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h1>Week 10 Homework</h1>
+          <p>2 visualisations embeded in a HTML document</p>
+        </div>
+      </div>
+
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h2>Bar Chart</h2>
+          <div id="bar-chart" class="vis-container"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    var barChart = "js/bar_chart.vg.json";
+
+    vegaEmbed("#bar-chart", barChart)
+      .then(function (result) {})
+      .catch(console.error);
+  </script>
+</html>
