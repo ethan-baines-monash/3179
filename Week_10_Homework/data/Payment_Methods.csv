@@ -1,0 +1,217 @@
+﻿Payment method,Payments basis,Attribute,Value,Attribute (2),% Usage
+BPAY,number,Demographic,All,2007,2
+BPAY,number,Demographic,All,2010,3
+BPAY,number,Demographic,All,2013,3
+BPAY,number,Demographic,All,2016,2
+BPAY,number,Demographic,All,2019,2
+BPAY,number,Demographic,All,2022,2
+Cash,number,Demographic,All,2007,69
+Cash,number,Demographic,All,2010,62
+Cash,number,Demographic,All,2013,47
+Cash,number,Demographic,All,2016,37
+Cash,number,Demographic,All,2019,27
+Cash,number,Demographic,All,2022,13
+Cheque,number,Demographic,All,2007,1
+Cheque,number,Demographic,All,2010,1
+Cheque,number,Demographic,All,2013,0
+Cheque,number,Demographic,All,2016,0
+Cheque,number,Demographic,All,2019,0
+Cheque,number,Demographic,All,2022,0
+Credit_Insert card,number,Demographic,All,2007,
+Credit_Insert card,number,Demographic,All,2010,
+Credit_Insert card,number,Demographic,All,2013,11
+Credit_Insert card,number,Demographic,All,2016,4
+Credit_Insert card,number,Demographic,All,2019,2
+Credit_Insert card,number,Demographic,All,2022,1
+Credit_Online,number,Demographic,All,2007,
+Credit_Online,number,Demographic,All,2010,
+Credit_Online,number,Demographic,All,2013,3
+Credit_Online,number,Demographic,All,2016,3
+Credit_Online,number,Demographic,All,2019,2
+Credit_Online,number,Demographic,All,2022,4
+Credit_Other,number,Demographic,All,2007,
+Credit_Other,number,Demographic,All,2010,
+Credit_Other,number,Demographic,All,2013,1
+Credit_Other,number,Demographic,All,2016,0
+Credit_Other,number,Demographic,All,2019,0
+Credit_Other,number,Demographic,All,2022,0
+Credit_Tap card,number,Demographic,All,2007,
+Credit_Tap card,number,Demographic,All,2010,
+Credit_Tap card,number,Demographic,All,2013,4
+Credit_Tap card,number,Demographic,All,2016,14
+Credit_Tap card,number,Demographic,All,2019,12
+Credit_Tap card,number,Demographic,All,2022,14
+Credit_Tap device,number,Demographic,All,2007,
+Credit_Tap device,number,Demographic,All,2010,
+Credit_Tap device,number,Demographic,All,2013,
+Credit_Tap device,number,Demographic,All,2016,1
+Credit_Tap device,number,Demographic,All,2019,1
+Credit_Tap device,number,Demographic,All,2022,6
+Credit_Total,number,Demographic,All,2007,11
+Credit_Total,number,Demographic,All,2010,9
+Credit_Total,number,Demographic,All,2013,19
+Credit_Total,number,Demographic,All,2016,22
+Credit_Total,number,Demographic,All,2019,19
+Credit_Total,number,Demographic,All,2022,26
+Debit_Insert card,number,Demographic,All,2007,
+Debit_Insert card,number,Demographic,All,2010,
+Debit_Insert card,number,Demographic,All,2013,17
+Debit_Insert card,number,Demographic,All,2016,11
+Debit_Insert card,number,Demographic,All,2019,7
+Debit_Insert card,number,Demographic,All,2022,3
+Debit_Online,number,Demographic,All,2007,
+Debit_Online,number,Demographic,All,2010,
+Debit_Online,number,Demographic,All,2013,2
+Debit_Online,number,Demographic,All,2016,3
+Debit_Online,number,Demographic,All,2019,4
+Debit_Online,number,Demographic,All,2022,6
+Debit_Other,number,Demographic,All,2007,
+Debit_Other,number,Demographic,All,2010,
+Debit_Other,number,Demographic,All,2013,0
+Debit_Other,number,Demographic,All,2016,0
+Debit_Other,number,Demographic,All,2019,0
+Debit_Other,number,Demographic,All,2022,0
+Debit_Tap card,number,Demographic,All,2007,
+Debit_Tap card,number,Demographic,All,2010,
+Debit_Tap card,number,Demographic,All,2013,4
+Debit_Tap card,number,Demographic,All,2016,15
+Debit_Tap card,number,Demographic,All,2019,30
+Debit_Tap card,number,Demographic,All,2022,27
+Debit_Tap device,number,Demographic,All,2007,
+Debit_Tap device,number,Demographic,All,2010,
+Debit_Tap device,number,Demographic,All,2013,
+Debit_Tap device,number,Demographic,All,2016,0
+Debit_Tap device,number,Demographic,All,2019,3
+Debit_Tap device,number,Demographic,All,2022,14
+Debit_Total,number,Demographic,All,2007,15
+Debit_Total,number,Demographic,All,2010,22
+Debit_Total,number,Demographic,All,2013,24
+Debit_Total,number,Demographic,All,2016,30
+Debit_Total,number,Demographic,All,2019,44
+Debit_Total,number,Demographic,All,2022,51
+Gift/prepaid card,number,Demographic,All,2007,
+Gift/prepaid card,number,Demographic,All,2010,
+Gift/prepaid card,number,Demographic,All,2013,
+Gift/prepaid card,number,Demographic,All,2016,2
+Gift/prepaid card,number,Demographic,All,2019,1
+Gift/prepaid card,number,Demographic,All,2022,0
+Internet/phone banking,number,Demographic,All,2007,
+Internet/phone banking,number,Demographic,All,2010,2
+Internet/phone banking,number,Demographic,All,2013,2
+Internet/phone banking,number,Demographic,All,2016,1
+Internet/phone banking,number,Demographic,All,2019,3
+Internet/phone banking,number,Demographic,All,2022,3
+Other,number,Demographic,All,2007,1
+Other,number,Demographic,All,2010,2
+Other,number,Demographic,All,2013,5
+Other,number,Demographic,All,2016,5
+Other,number,Demographic,All,2019,3
+Other,number,Demographic,All,2022,5
+BPAY,value,Demographic,All,2007,10
+BPAY,value,Demographic,All,2010,10
+BPAY,value,Demographic,All,2013,11
+BPAY,value,Demographic,All,2016,8
+BPAY,value,Demographic,All,2019,9
+BPAY,value,Demographic,All,2022,8
+Cash,value,Demographic,All,2007,38
+Cash,value,Demographic,All,2010,29
+Cash,value,Demographic,All,2013,18
+Cash,value,Demographic,All,2016,18
+Cash,value,Demographic,All,2019,11
+Cash,value,Demographic,All,2022,8
+Cheque,value,Demographic,All,2007,6
+Cheque,value,Demographic,All,2010,3
+Cheque,value,Demographic,All,2013,2
+Cheque,value,Demographic,All,2016,2
+Cheque,value,Demographic,All,2019,2
+Cheque,value,Demographic,All,2022,0
+Credit_Insert card,value,Demographic,All,2007,
+Credit_Insert card,value,Demographic,All,2010,
+Credit_Insert card,value,Demographic,All,2013,15
+Credit_Insert card,value,Demographic,All,2016,7
+Credit_Insert card,value,Demographic,All,2019,5
+Credit_Insert card,value,Demographic,All,2022,2
+Credit_Online,value,Demographic,All,2007,
+Credit_Online,value,Demographic,All,2010,
+Credit_Online,value,Demographic,All,2013,10
+Credit_Online,value,Demographic,All,2016,10
+Credit_Online,value,Demographic,All,2019,7
+Credit_Online,value,Demographic,All,2022,9
+Credit_Other,value,Demographic,All,2007,
+Credit_Other,value,Demographic,All,2010,
+Credit_Other,value,Demographic,All,2013,4
+Credit_Other,value,Demographic,All,2016,1
+Credit_Other,value,Demographic,All,2019,2
+Credit_Other,value,Demographic,All,2022,1
+Credit_Tap card,value,Demographic,All,2007,
+Credit_Tap card,value,Demographic,All,2010,
+Credit_Tap card,value,Demographic,All,2013,2
+Credit_Tap card,value,Demographic,All,2016,10
+Credit_Tap card,value,Demographic,All,2019,10
+Credit_Tap card,value,Demographic,All,2022,10
+Credit_Tap device,value,Demographic,All,2007,
+Credit_Tap device,value,Demographic,All,2010,
+Credit_Tap device,value,Demographic,All,2013,
+Credit_Tap device,value,Demographic,All,2016,1
+Credit_Tap device,value,Demographic,All,2019,1
+Credit_Tap device,value,Demographic,All,2022,4
+Credit_Total,value,Demographic,All,2007,23
+Credit_Total,value,Demographic,All,2010,16
+Credit_Total,value,Demographic,All,2013,31
+Credit_Total,value,Demographic,All,2016,28
+Credit_Total,value,Demographic,All,2019,25
+Credit_Total,value,Demographic,All,2022,26
+Debit_Insert card,value,Demographic,All,2007,
+Debit_Insert card,value,Demographic,All,2010,
+Debit_Insert card,value,Demographic,All,2013,14
+Debit_Insert card,value,Demographic,All,2016,12
+Debit_Insert card,value,Demographic,All,2019,10
+Debit_Insert card,value,Demographic,All,2022,3
+Debit_Online,value,Demographic,All,2007,
+Debit_Online,value,Demographic,All,2010,
+Debit_Online,value,Demographic,All,2013,4
+Debit_Online,value,Demographic,All,2016,6
+Debit_Online,value,Demographic,All,2019,6
+Debit_Online,value,Demographic,All,2022,9
+Debit_Other,value,Demographic,All,2007,
+Debit_Other,value,Demographic,All,2010,
+Debit_Other,value,Demographic,All,2013,1
+Debit_Other,value,Demographic,All,2016,0
+Debit_Other,value,Demographic,All,2019,1
+Debit_Other,value,Demographic,All,2022,1
+Debit_Tap card,value,Demographic,All,2007,
+Debit_Tap card,value,Demographic,All,2010,
+Debit_Tap card,value,Demographic,All,2013,2
+Debit_Tap card,value,Demographic,All,2016,8
+Debit_Tap card,value,Demographic,All,2019,17
+Debit_Tap card,value,Demographic,All,2022,18
+Debit_Tap device,value,Demographic,All,2007,
+Debit_Tap device,value,Demographic,All,2010,
+Debit_Tap device,value,Demographic,All,2013,
+Debit_Tap device,value,Demographic,All,2016,0
+Debit_Tap device,value,Demographic,All,2019,1
+Debit_Tap device,value,Demographic,All,2022,8
+Debit_Total,value,Demographic,All,2007,21
+Debit_Total,value,Demographic,All,2010,27
+Debit_Total,value,Demographic,All,2013,22
+Debit_Total,value,Demographic,All,2016,26
+Debit_Total,value,Demographic,All,2019,36
+Debit_Total,value,Demographic,All,2022,39
+Gift/prepaid card,value,Demographic,All,2007,
+Gift/prepaid card,value,Demographic,All,2010,
+Gift/prepaid card,value,Demographic,All,2013,
+Gift/prepaid card,value,Demographic,All,2016,1
+Gift/prepaid card,value,Demographic,All,2019,1
+Gift/prepaid card,value,Demographic,All,2022,0
+Internet/phone banking,value,Demographic,All,2007,
+Internet/phone banking,value,Demographic,All,2010,12
+Internet/phone banking,value,Demographic,All,2013,10
+Internet/phone banking,value,Demographic,All,2016,10
+Internet/phone banking,value,Demographic,All,2019,14
+Internet/phone banking,value,Demographic,All,2022,14
+Other,value,Demographic,All,2007,3
+Other,value,Demographic,All,2010,4
+Other,value,Demographic,All,2013,7
+Other,value,Demographic,All,2016,6
+Other,value,Demographic,All,2019,3
+Other,value,Demographic,All,2022,6
