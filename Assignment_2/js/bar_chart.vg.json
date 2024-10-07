@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 450,
+  "title": {
+    "text": "ATM Count in Australia",
+    "subtitle": "2017 to 2023"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/ATM_Count.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "color": "mediumseagreen",
+    "size": 75
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "nominal",
+      "axis": { "labelAngle": 0 }
+    },
+    "y": {
+      "field": "ATM_Count",
+      "type": "quantitative",
+      "title": "Count of ATMs"
+    },
+    "tooltip": [
+      { "field": "Year", "type": "nominal" },
+      {
+        "field": "ATM_Count",
+        "type": "quantitative",
+        "title": "Count",
+        "format": ","
+      }
+    ]
+  }
+}

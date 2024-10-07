@@ -1,0 +1,145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "background": "transparent",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Payment_Method_Usage.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "darkslategray",
+        "strokeDash": [2, 2]
+      },
+      "data": {
+        "values": [
+          {
+            "x": "2020",
+            "y": "60"
+          },
+          {
+            "x": "2015-11-19",
+            "y": "55"
+          }
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "darkslategray",
+        "align": "left",
+        "dx": 5
+      },
+      "data": {
+        "values": [
+          {
+            "x": "2020",
+            "y": "60",
+            "label": "COVID-19"
+          },
+          {
+            "x": "2015-11-19",
+            "y": "55",
+            "label": "Apple Pay is launched"
+          }
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": false,
+          "fill": "white"
+        }
+      },
+      "params": [
+        {
+          "name": "Payment_Method",
+          "select": { "type": "point", "fields": ["Payment_Method"] },
+          "bind": { "legend": "click" }
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "axis": {
+            "labelAngle": 0,
+            "title": "Year",
+            "values": [
+              "2007-01-01",
+              "2010-01-01",
+              "2013-01-01",
+              "2016-01-01",
+              "2019-01-01",
+              "2022-01-01"
+            ],
+            "format": "%Y"
+          }
+        },
+        "y": {
+          "field": "Usage",
+          "type": "quantitative",
+          "title": "Usage of Payment Method (%)"
+        },
+        "color": {
+          "field": "Payment_Method",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Cash",
+              "Credit",
+              "Debit",
+              "Cheque",
+              "Internet/phone banking",
+              "Other"
+            ]
+          },
+          "title": "Payment Method"
+        },
+        "opacity": {
+          "condition": {
+            "param": "Payment_Method",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Payment_Method",
+            "type": "nominal",
+            "title": "Payment Method"
+          },
+          { "field": "Usage", "type": "quantitative", "title": "Usage (%)" },
+          { "field": "Year", "type": "temporal" }
+        ]
+      }
+    }
+  ]
+}

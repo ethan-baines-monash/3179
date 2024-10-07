@@ -1,0 +1,55 @@
+h2,
+h3,
+h5,
+p {
+  font-family: "Roboto";
+  margin: 10px;
+}
+
+h1 {
+  font-family: "Teko";
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0px;
+  padding-left: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0px;
+  color: darkslategray;
+}
+
+.page {
+  width: 950px;
+  margin: auto;
+  padding: 50px;
+  background-image: linear-gradient(to right bottom, #e3f2e3, #d6ded3, #f3e5d6);
+}
+
+.vis-container {
+  width: 100%;
+  padding-left: 5px;
+}
+
+.line {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+  border: none;
+}
+
+.subtitle {
+  color: #555a64;
+  font-weight: 600;
+  margin-top: 5px;
+
+}
+
+.description-right {
+  padding-left: 20px;
+}
+
+.pure-g {
+  margin-bottom: 10px;
+}

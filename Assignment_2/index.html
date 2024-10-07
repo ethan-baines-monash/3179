@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title Assignment 2 | Ethan Baines></title>
+
+    <!--Vega Lite Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+    <!--Pure CSS-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
+      crossorigin="anonymous"
+    />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h1>Cash Is (No Longer) King</h1>
+          <h2 class="subtitle">
+            An exploration of the decling use of cash in Australia.
+          </h2>
+        </div>
+        <hr class="line" />
+      </div>
+
+      <div class="pure-g">
+        <div class="pure-u-19-24">
+          <h3>Payment Method Usage in Australia</h3>
+          <h5 class="subtitle">2007-2023</h5>
+          <div id="line-chart" class="vis-container"></div>
+        </div>
+        <div class="pure-u-5-24">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            commodo sem sed dui convallis, eu posuere eros rutrum. Duis vitae
+            nulla leo. Curabitur luctus risus ut metus bibendum pellentesque.
+            Sed quis venenatis purus. Cras et odio tincidunt, consectetur mi
+            vitae, auctor lectus. Nulla ultricies, nulla et malesuada fermentum,
+            quam leo feugiat sem
+          </p>
+        </div>
+        <hr class="line" />
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    var barChart = "js/bar_chart.vg.json";
+    var lineChart = "js/line_chart.vg.json";
+
+    vegaEmbed("#bar-chart", barChart)
+      .then(function (result) {})
+      .catch(console.error);
+
+    vegaEmbed("#line-chart", lineChart)
+      .then(function (result) {})
+      .catch(console.error);
+  </script>
+</html>
