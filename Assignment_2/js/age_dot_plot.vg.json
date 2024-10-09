@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 200,
+  "background": "transparent",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Payment_Method_By_Age.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "Usage",
+      "type": "quantitative",
+      "title": "Usage of Cash (%)"
+    },
+    "y": {
+      "field": "Demographic",
+      "type": "nominal",
+      "title": "Age Range"
+    }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "detail": {
+          "field": "Demographic",
+          "type": "nominal"
+        },
+        "color": { "value": "#bbbbbb" },
+        "size": { "value": 3 }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "color": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {
+            "domain": ["2007", "2022"],
+            "range": ["#e6959c", "#911a24"]
+          }
+        },
+        "size": { "value": 150 },
+        "opacity": { "value": 1 },
+        "tooltip": [
+          { "field": "Year", "type": "nominal" },
+          { "field": "Usage", "type": "quantitative", "title": "Usage (%)" }
+        ]
+      }
+    }
+  ]
+}
