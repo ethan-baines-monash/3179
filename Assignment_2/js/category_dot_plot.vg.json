@@ -4,7 +4,7 @@
   "height": 200,
   "background": "transparent",
   "data": {
-    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Payment_Method_By_Age.csv"
+    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Payment_Method_By_Category.csv"
   },
   "encoding": {
     "x": {

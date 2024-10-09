@@ -4,7 +4,7 @@
   "height": 200,
   "background": "transparent",
   "data": {
-    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Payment_Method_By_Age.csv"
+    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Payment_Method_By_Size.csv"
   },
   "encoding": {
     "x": {
@@ -13,7 +13,7 @@
       "title": "Usage of Cash (%)"
     },
     "y": {
-      "field": "Payment_Category",
+      "field": "Demographic",
       "type": "nominal",
       "title": "Age Range"
     }
@@ -23,7 +23,7 @@
       "mark": "line",
       "encoding": {
         "detail": {
-          "field": "Payment_Category",
+          "field": "Demographic",
           "type": "nominal"
         },
         "color": { "value": "#bbbbbb" },

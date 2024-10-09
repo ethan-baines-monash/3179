@@ -74,6 +74,11 @@
             commodo sem sed dui convallis, eu posuere eros rutrum. Duis vitae
             nulla leo.
           </p>
+
+          <h3 class="column-group">Usage of Cash by Payment Size</h3>
+          <h5 class="subtitle">2007-2022</h5>
+          <div id="size-dot-plot" class="vis-container"></div>
+
         </div>
         <hr class="line" />
       </div>
@@ -84,6 +89,8 @@
     var barChart = "js/bar_chart.vg.json";
     var lineChart = "js/line_chart.vg.json";
     var ageDotPlot = "js/age_dot_plot.vg.json";
+    var sizeDotPlot = "js/size_dot_plot.vg.json";
+    var categoryDotPlot = "js/category_dot_plot.vg.json";
 
     vegaEmbed("#bar-chart", barChart)
       .then(function (result) {})
@@ -94,6 +101,14 @@
       .catch(console.error);
 
     vegaEmbed("#age-dot-plot", ageDotPlot)
+      .then(function (result) {})
+      .catch(console.error);
+
+    vegaEmbed("#size-dot-plot", sizeDotPlot)
+      .then(function (result) {})
+      .catch(console.error);
+
+    vegaEmbed("#category-dot-plot", categoryDotPlot)
       .then(function (result) {})
       .catch(console.error);
   </script>
