@@ -13,7 +13,7 @@
       "title": "Usage of Cash (%)"
     },
     "y": {
-      "field": "Payment_Category",
+      "field": "Demographic",
       "type": "nominal",
       "title": "Age Range"
     }
@@ -23,7 +23,7 @@
       "mark": "line",
       "encoding": {
         "detail": {
-          "field": "Payment_Category",
+          "field": "Demographic",
           "type": "nominal"
         },
         "color": { "value": "#bbbbbb" },
