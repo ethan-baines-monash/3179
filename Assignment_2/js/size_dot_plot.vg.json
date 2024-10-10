@@ -15,7 +15,8 @@
     "y": {
       "field": "Payment_Category",
       "type": "nominal",
-      "title": "Age Range"
+      "title": "Payment Size",
+      "sort": ["$1-$10", "$11-$20", "$21-$50", "$51-$100", "$101-$500", "$501+"]
     }
   },
   "layer": [

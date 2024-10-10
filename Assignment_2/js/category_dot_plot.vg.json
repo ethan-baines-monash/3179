@@ -15,7 +15,7 @@
     "y": {
       "field": "Payment_Category",
       "type": "nominal",
-      "title": "Age Range"
+      "title": "Payment Category"
     }
   },
   "layer": [
