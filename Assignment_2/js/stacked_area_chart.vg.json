@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 200,
+  "background": "transparent",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Notes_In_Circulation.csv"
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal"
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Count",
+      "axis": {
+        "title": "Value ($ million)"
+      }
+    },
+    "color": {
+      "field": "Note"
+    }
+  }
+}
