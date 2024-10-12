@@ -140,7 +140,7 @@
         <div class="pure-u-3-4">
           <h3>ATM Locations in Australia</h3>
           <h5 class="subtitle">2017-2023</h5>
-          <div id="dot-map" class="vis-container"></div>
+          <div id="choropleth_map" class="vis-container"></div>
         </div>
         <hr class="line" />
       </div>
@@ -154,7 +154,7 @@
     var sizeDotPlot = "js/size_dot_plot.vg.json";
     var categoryDotPlot = "js/category_dot_plot.vg.json";
     var stackedAreaChart = "js/stacked_area_chart.vg.json";
-    var dotMap = "js/dot_map.vg.json";
+    var choroplethMap = "js/choropleth_map.vg.json";
 
     vegaEmbed("#bar-chart", barChart)
       .then(function (result) {})
@@ -180,7 +180,7 @@
       .then(function (result) {})
       .catch(console.error);
 
-    vegaEmbed("#dot-map", dotMap)
+    vegaEmbed("#choropleth_map", choroplethMap)
       .then(function (result) {})
       .catch(console.error);
   </script>
