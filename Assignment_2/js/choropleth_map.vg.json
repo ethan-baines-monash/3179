@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 450,
-  "background": "transparent",
+  "height": 400,
+  "background": "#cce4eb",
   "projection": { "type": "mercator" },
   "data": {
     "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/AUS_Remote.json",
