@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 400,
+  "height": 350,
   "background": "transparent",
-  "projection": { "type": "mercator" },
+  "projection": { "type": "mercator"},
   "data": {
     "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/AUS_Remote.json",
     "format": {
@@ -36,7 +36,7 @@
           "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/ATM_Locations_Normalised.csv"
         },
         "key": "ID",
-        "fields": ["ATM_Per_1000", "Year"]
+        "fields": ["STE_NAME21", "RA_NAME21", "ATM_Per_1000", "Year"]
       }
     },
     {
@@ -52,6 +52,24 @@
       "type": "quantitative",
       "title": "ATMs Per 1000 people",
       "scale": { "domain": [0, 1.5], "scheme": "reds" }
-    }
+    },
+    "tooltip": [
+      {
+        "field": "STE_NAME21",
+        "type": "nominal",
+        "title": "State Name"
+      },
+      {
+        "field": "RA_NAME21",
+        "type": "nominal",
+        "title": "Remoteness"
+      },
+      {
+        "field": "ATM_Per_1000",
+        "type": "quantitative",
+        "title": "ATM Ratio",
+        "format": ".2f"
+      }
+    ]
   }
 }

@@ -6,31 +6,112 @@
   "data": {
     "url": "https://raw.githubusercontent.com/ethan-baines-monash/3179/refs/heads/main/Assignment_2/data/Notes_In_Circulation.csv"
   },
-  "mark": "area",
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "type": "temporal"
-    },
-    "y": {
-      "aggregate": "sum",
-      "field": "Count",
-      "axis": {
-        "title": "Value ($ million)"
+  "layer": [
+    {
+      "mark": "area",
+      "params": [
+        {
+          "name": "Note_Denomination",
+          "select": { "type": "point", "fields": ["Note"] },
+          "bind": { "legend": "click" }
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "axis": {
+            "title": "Year"
+          }
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": "Count",
+          "axis": {
+            "title": "Count (million)"
+          }
+        },
+        "tooltip": [
+          { "field": "Year", "type": "temporal", "format": "%Y" },
+          { "field": "Note", "type": "nominal" },
+          {
+            "field": "Count",
+            "type": "quantitative",
+            "title": "Count (million)",
+            "format": ","
+          }
+        ],
+        "opacity": {
+          "condition": {
+            "param": "Note_Denomination",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "color": {
+          "field": "Note",
+          "type": "nominal",
+          "sort": ["$5", "$10", "$20", "$50", "$100"],
+          "scale": {
+            "range": ["#f46a9b", "#27aeef", "#ea5545", "#edbf33", "#87bc45"]
+          }
+        }
       }
     },
-    "tooltip": [
-      { "field": "Year", "type": "temporal" },
-      { "field": "Note", "type": "nominal" },
-      {
-        "field": "Count",
-        "type": "quantitative",
-        "title": "Value ($ million)",
-        "format": ","
+    {
+      "mark": {
+        "type": "rule",
+        "color": "darkslategray",
+        "strokeDash": [2, 2]
+      },
+      "data": {
+        "values": [
+          {
+            "x": "2020",
+            "y": "2000"
+          }
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        }
       }
-    ],
-    "color": {
-      "field": "Note"
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "darkslategray",
+        "align": "right",
+        "dx": -5
+      },
+      "data": {
+        "values": [
+          {
+            "x": "2020",
+            "y": "2000",
+            "label": "COVID-19"
+          }
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
     }
-  }
+  ]
 }

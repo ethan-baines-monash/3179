@@ -137,7 +137,7 @@
             "title": "Payment Method"
           },
           { "field": "Usage", "type": "quantitative", "title": "Usage (%)" },
-          { "field": "Year", "type": "temporal" }
+          { "field": "Year", "type": "temporal", "format": "%Y" }
         ]
       }
     }
